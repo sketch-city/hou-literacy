@@ -1,0 +1,5 @@
+clean_data = read.csv("clean_data.csv")
+model = lm(data = clean_data, formula = Percent_No_HS~log(Median_HHI))
+plot(log(clean_data$Median_HHI), clean_data$Percent_No_HS)
+abline(model, col="red")
+summary(model)
