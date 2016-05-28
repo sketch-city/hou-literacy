@@ -16,18 +16,19 @@ body{
   overflow-x: hidden;
 }
 #houstonmap{
-  width: 80%;
+  width: 75%;
   height: 100%;
   color: black;
 }
 #infobox{
-  width: 20%;
+  width: 23%;
   position: absolute;
   right: 0;
   top: 8%;
   height: 92%;
   color: #eee;
   text-align: center;
+  margin: 0 1% 0 1%;
 }
 #map-container{
   width: 100%;
@@ -46,4 +47,14 @@ body{
 }
 #interface{
   height: 400px;
+}
+path {
+  fill: #000;
+  fill-opacity: .2;
+  stroke: #003399;
+  stroke-width: 1.5px;
+}
+path:hover {
+  fill: brown;
+  fill-opacity: .7;
 }
