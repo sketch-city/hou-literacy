@@ -8,8 +8,9 @@ $(function(){
     attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> with <a href="https://github.com/SINTEF-9012/PruneCluster" target="_blank">PruneCluser</a>. More info about this <a href="http://data.houstontx.gov/dataset/city-of-houston-parking-citations">data</a> can be found in my <a href="https://github.com/jpoles1/HOUTix/blob/master/README.md">report (source, methodology)</a>'
   }).addTo(houstonmap);
   //Fetch json ticket data
-  $.getJSON("literacy_data.json", function(violations){
+  $.getJSON("literacy_data.json", function(lit_data){
     //Logic goes here...
+    console.log(lit_data)
   });
   $(".tabs-menu a").click(function(event) {
     event.preventDefault();

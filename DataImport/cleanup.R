@@ -1,3 +1,4 @@
+require(jsonlite)
 #Begin by importing raw data
 clean_data = function(df){
   remove_cols = c("OBJECTID", "OBJECTID_1", "STATE", "Total")
@@ -17,3 +18,5 @@ clean_data = merge_frames(householdIncome, homeValue)
 clean_data = merge_frames(clean_data, langData)
 clean_data = merge_frames(clean_data, edData)
 write.csv(clean_data, "clean_data.csv")
+#Prepare a JSON file with block data
+write(toJSON(clean_data), "literacy_data.json")
