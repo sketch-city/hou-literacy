@@ -1,0 +1,40 @@
+h2{
+  padding-left: 10px;
+  margin-top: 15px;
+}
+body{
+  background-color: #333;
+  padding: 0px;
+  margin: 0;
+  font-family: arial;
+  color: #ddd;
+}
+#container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+#houstonmap{
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+#map-container{
+  width: 90%;
+  height: 92%;
+  color: black;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.leaflet-popup-content{
+  text-align: center;
+}
+.leaflet-control-attribution{
+  background-color: #333 !important;
+  color: #fff !important;
+  opacity: .9;
+}
+#interface{
+  height: 400px;
+}
