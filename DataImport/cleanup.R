@@ -17,6 +17,7 @@ merge_frames = function(x, y){
 clean_data = merge_frames(householdIncome, homeValue)
 clean_data = merge_frames(clean_data, langData)
 clean_data = merge_frames(clean_data, edData)
+rownames(clean_data) = paste(clean_data$TRACT,"-",clean_data$BLKGRP, sep="")
 write.csv(clean_data, "clean_data.csv")
 #Prepare a JSON file with block data
-write(toJSON(clean_data), "literacy_data.json")
+write(toJSON(clean_data, dataframe = "rows"), "literacy_data.json")
