@@ -9,6 +9,9 @@ body{
   font-family: arial;
   color: #ddd;
 }
+canvas{
+  background-color: purple;
+}
 #container{
   position: relative;
   width: 100%;
