@@ -7,6 +7,7 @@
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="js/leaflet.js"></script>
+    <script src="js/chroma.min.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
@@ -15,7 +16,7 @@
       <div id="map-container">
         <div id="houstonmap"></div>
         <div id="infobox">
-          <h2>Put Information About Block Here</h2>
+          <h2>Census Block-Group Info:</h2>
           <div id="infoarea">
           </div>
         </div>
@@ -24,18 +25,22 @@
         <div style="position: relative;">
           <div id="tabs-container">
             <ul class="tabs-menu">
-              <li class="current"><a href="#tab-1">1</a></li>
+              <li class="current"><a href="#tab-1">Map Variable</a></li>
               <li><a href="#tab-2">2</a></li>
               <li><a href="#tab-3">3</a></li>
             </ul>
             <div class="tab">
-                <div id="tab-1" class="tab-content">
-                </div>
-                <div id="tab-2" class="tab-content">
-                </div>
-                <div id="tab-3" class="tab-content">
-                </div>
+              <div id="tab-1" class="tab-content">
+                <select class="variable-selector" id="first_map">
+
+                </select>
+              </div>
+              <div id="tab-2" class="tab-content">
+              </div>
+              <div id="tab-3" class="tab-content">
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

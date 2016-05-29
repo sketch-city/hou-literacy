@@ -35,7 +35,7 @@ canvas{
 }
 #map-container{
   width: 100%;
-  height: 92%;
+  height: 85%;
   color: black;
   margin: auto;
   margin-bottom: 20px;
@@ -51,7 +51,7 @@ canvas{
 #interface{
   height: 400px;
 }
-path {
+/*path {
   fill: #000;
   fill-opacity: .2;
   stroke: #003399;
@@ -60,4 +60,4 @@ path {
 path:hover {
   fill: brown;
   fill-opacity: .7;
-}
+}*/
