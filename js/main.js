@@ -7,14 +7,11 @@ $(function(){
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> with <a href="https://github.com/SINTEF-9012/PruneCluster" target="_blank">PruneCluser</a>. More info about this <a href="http://data.houstontx.gov/dataset/city-of-houston-parking-citations">data</a> can be found in my <a href="https://github.com/jpoles1/HOUTix/blob/master/README.md">report (source, methodology)</a>'
   }).addTo(houstonmap);
-  var topoLayer = new L.TopoJSON();
-
-  $.getJSON('hou-blocks.topojson')
+  var boundaries;
+  $.getJSON('census_blocks.geojson')
     .done(addTopoData);
-
-  function addTopoData(topoData){
-    topoLayer.addData(topoData);
-    topoLayer.addTo(houstonmap);
+  function addTopoData(geodata){
+    boundaries = L.geoJson(geodata).addTo(houstonmap);
     $.getJSON("literacy_data.json", function(lit_data){
       //Logic goes here...
     });
