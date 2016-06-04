@@ -32,6 +32,10 @@ canvas{
   color: #eee;
   text-align: center;
   margin: 0 1% 0 1%;
+  border: 3px solid #555;
+  height: 90.5%;
+  border-bottom: none;
+  overflow-y: scroll;
 }
 #map-container{
   width: 100%;

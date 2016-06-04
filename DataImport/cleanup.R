@@ -2,7 +2,7 @@ require(jsonlite)
 require(reshape2)
 #Begin by importing raw data
 clean_data = function(df){
-  remove_cols = c("OBJECTID", "OBJECTID_1", "STATE", "Total", "BG_ID", "BG_ID_1", "GEOID")
+  remove_cols = c("OBJECTID", "OBJECTID_1", "STATE", "Total", "BG_ID", "BG_ID_1", "GEOID", "Shapelen", "COUNTY_1", "TRACT_1", "BLKGRP_1", "ST", "SUMLEVEL")
   return(df[!(names(df) %in% remove_cols)])
 }
 censusData = clean_data(read.csv("DataImport/Census_2010_Tracts.csv"))

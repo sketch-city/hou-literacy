@@ -9,47 +9,51 @@ $(function(){
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> with <a href="https://github.com/SINTEF-9012/PruneCluster" target="_blank">PruneCluser</a>. More info about this <a href="http://data.houstontx.gov/dataset/city-of-houston-parking-citations">data</a> can be found in my <a href="https://github.com/jpoles1/HOUTix/blob/master/README.md">report (source, methodology)</a>'
   }).addTo(houstonmap);
-  //Setup geo-data
-  function highlightFeature(e) {
-    var layer = e.target;
-    var props = layer.feature.properties;
-    $("#infoarea").html("Tract: "+props["TRACT"]+"<br>BLKGRP: "+props["BLKGRP"])
-    layer.setStyle({
-        fillOpacity: 1
-    });
-    if (!L.Browser.ie && !L.Browser.opera) {
-        layer.bringToFront();
-    }
-  }
-  function resetHighlight(e) {
-    e.target.setStyle({
-        fillOpacity: .7
-    });
-
-  }
-  function zoomToFeature(e) {
-    houstonmap.fitBounds(e.target.getBounds());
-  }
-  function onEachFeature(feature, layer) {
-    layer.on({
-        mouseover: highlightFeature,
-        mouseout: resetHighlight,
-        click: zoomToFeature
-    });
-  }
-  getFeatureID = function(row){
-    return(row["TRACT"]+"-"+row["BLKGRP"])
-  }
-  var boundaries = L.geoJson(null, {
-    // http://leafletjs.com/reference.html#geojson-style
-    style: {
-      color : "black",
-      fillOpacity: .7,
-      fillColor: "white"
-    },
-    onEachFeature: onEachFeature
-  });
   $.getJSON("literacy_data.json", function(lit_data){
+    //Setup geo-data
+    function highlightFeature(e) {
+      var layer = e.target;
+      var layer_props = layer.feature.properties;
+      var block_id = getFeatureID(layer_props)
+      $("#infoarea").html("")
+      for(prop in lit_data){
+        $("#infoarea").append("<br>"+prop+": "+lit_data[prop][block_id])
+      }
+      layer.setStyle({
+          fillOpacity: 1
+      });
+      if (!L.Browser.ie && !L.Browser.opera) {
+          layer.bringToFront();
+      }
+    }
+    function resetHighlight(e) {
+      e.target.setStyle({
+          fillOpacity: .7
+      });
+
+    }
+    function zoomToFeature(e) {
+      houstonmap.fitBounds(e.target.getBounds());
+    }
+    function onEachFeature(feature, layer) {
+      layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+          click: zoomToFeature
+      });
+    }
+    getFeatureID = function(row){
+      return(row["TRACT"]+"-"+row["BLKGRP"])
+    }
+    var boundaries = L.geoJson(null, {
+      // http://leafletjs.com/reference.html#geojson-style
+      style: {
+        color : "black",
+        fillOpacity: .7,
+        fillColor: "white"
+      },
+      onEachFeature: onEachFeature
+    });
     var changeFeature = function(){
       console.log(current_prop)
       color_scale = chroma.scale(['yellow', 'red']).domain([lit_data[current_prop]["min"],lit_data[current_prop]["max"]]);
