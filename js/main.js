@@ -17,12 +17,15 @@ $(function(){
       var block_id = getFeatureID(layer_props)
       $("#infoarea").html("")
       for(prop in lit_data){
-        $("#infoarea").append("<button class='prop_button' type='button' value="+prop+">"+prop+": "+lit_data[prop][block_id]+"</button>")
+        var active = (prop == current_prop ? "active": "");
+        $("#infoarea").append("<button class='prop_button "+active+"' type='button' value="+prop+">"+prop+": "+lit_data[prop][block_id]+"</button>")
       }
       $(".prop_button").click(function(){
         current_prop = $(this).val();
         console.log(current_prop);
         changeFeature();
+        $(".prop_button").removeClass("active");
+        $(this).addClass("active");
       })
       layer.setStyle({
           fillOpacity: 1
