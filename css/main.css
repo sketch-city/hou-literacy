@@ -36,6 +36,21 @@ canvas{
   height: 90.5%;
   border-bottom: none;
   overflow-y: scroll;
+  overflow-x: hidden;
+}
+#infobox h2{
+}
+#infobox button{
+  margin-bottom: 5px;
+  width: 40%;
+  height: 40px;
+}
+#infoarea{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 #map-container{
   width: 100%;

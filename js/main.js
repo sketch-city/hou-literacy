@@ -17,8 +17,13 @@ $(function(){
       var block_id = getFeatureID(layer_props)
       $("#infoarea").html("")
       for(prop in lit_data){
-        $("#infoarea").append("<br>"+prop+": "+lit_data[prop][block_id])
+        $("#infoarea").append("<button class='prop_button' type='button' value="+prop+">"+prop+": "+lit_data[prop][block_id]+"</button>")
       }
+      $(".prop_button").click(function(){
+        current_prop = $(this).val();
+        console.log(current_prop);
+        changeFeature();
+      })
       layer.setStyle({
           fillOpacity: 1
       });
@@ -33,7 +38,8 @@ $(function(){
 
     }
     function zoomToFeature(e) {
-      houstonmap.fitBounds(e.target.getBounds());
+      //Adds a % padding to a frame around the feature of interest
+      houstonmap.fitBounds(e.target.getBounds().pad(.5));
     }
     function onEachFeature(feature, layer) {
       layer.on({
@@ -69,7 +75,7 @@ $(function(){
     }
     $(".variable-selector").val(current_prop)
     $(".variable-selector").on("change", function(){
-      current_prop = $(this).val()
+      current_prop = $(this).val();
       console.log(current_prop);
       changeFeature();
     })
@@ -81,10 +87,12 @@ $(function(){
       opacity: 1,
       fillOpacity: .8
     };
+    L.Icon.Default.imagePath = "img/"
     var lit_markers = L.geoJson(null, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, markerOpts);
-        }
+      pointToLayer: function (feature, latlng) {
+        console.log(feature)
+        return L.marker(latlng).bindPopup(feature.properties.name);
+      }
     })
     omnivore.kml("lit_providers.kml", null, lit_markers)
     lit_markers.addTo(houstonmap)
