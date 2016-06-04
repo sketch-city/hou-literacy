@@ -74,6 +74,20 @@ $(function(){
       changeFeature();
     })
     omnivore.kml("census_blocks.kml", null, boundaries)
+    var markerOpts = {
+      radius: 15,
+      fillColor: "blue",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: .8
+    };
+    var lit_markers = L.geoJson(null, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, markerOpts);
+        }
+    })
+    omnivore.kml("lit_providers.kml", null, lit_markers)
+    lit_markers.addTo(houstonmap)
     boundaries.addTo(houstonmap).on('ready', changeFeature);
   });
 

@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Literacy Providers</name>
+		<Placemark>
+			<name>Adult Reading Center</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.289536,29.565876000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A AMA Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.362801,29.80344,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TCPA-AAMA</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.311653,29.715212,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alliance For Multicultural Community services</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.494247,29.710972000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alvin Community College</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.241028,29.394956999999998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Avance</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.450813,29.809055,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Advance</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/cvsKIL4pLqLgMJZrfmNgCnIulHEkZ_hnWrO1eAcu4fheDVXS9uPO2lJKTiOboscHo4QwqSD4hCmD1ezsDtMuVjdVq5nbUwjKxlb-Bk15rJfZjfUGXK2EOGYmYJqN0CaqCxiq_Ls4rbdTAg" height="200" width="auto" /><br><br>Houston, TX 77092]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/cvsKIL4pLqLgMJZrfmNgCnIulHEkZ_hnWrO1eAcu4fheDVXS9uPO2lJKTiOboscHo4QwqSD4hCmD1ezsDtMuVjdVq5nbUwjKxlb-Bk15rJfZjfUGXK2EOGYmYJqN0CaqCxiq_Ls4rbdTAg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.46347,29.835347999999996,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bethel's Place</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.503258,29.639017000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6060 Richmond Ave</name>
+			<description><![CDATA[Houston, TX 77057]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.496628,29.731084999999997,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bilingual Education Institute</name>
+			<description><![CDATA[Houston, TX 77057]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.496628,29.731084999999997,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brighter Future Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.399734,29.677521,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Career &amp; Recovery Resources, Inc.</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.372131,29.744432,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chinese Community Center</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.55442,29.712008000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Christ the Servant Lutheran Church</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.572647,29.739887,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>City Wide Outreach Learning Center</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/qaSaaPCGrFWlM-3hECqY3c9UA_eolU_uCjUPZCmnnxbzfIsI_t78W3Orp36yOEyZEVF815LRGJYq3LarYxHFBksiXnj4VPjuZHxpUEHF-t61opeelxO-A_bui8I5w59iAGjrhNyQPI1Dww" height="200" width="auto" /><br><br>Houston, TX 77088]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/qaSaaPCGrFWlM-3hECqY3c9UA_eolU_uCjUPZCmnnxbzfIsI_t78W3Orp36yOEyZEVF815LRGJYq3LarYxHFBksiXnj4VPjuZHxpUEHF-t61opeelxO-A_bui8I5w59iAGjrhNyQPI1Dww</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.47998,29.865685,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Community Family Center</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/9TJVF1eisuCWh3Tr11dDXywae8oEc5arKvGUQ5LtWCcmufJrA-7qogLbCjT39HaXN0JlPCUVajdiGI7zynjZajK_LZyn0Jv6MYhIL3YHxZ6p79ahaWy1i0SJGE8G6WfpplimepTI2Kn05g" height="200" width="auto" /><br><br>Houston, TX 77057]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/9TJVF1eisuCWh3Tr11dDXywae8oEc5arKvGUQ5LtWCcmufJrA-7qogLbCjT39HaXN0JlPCUVajdiGI7zynjZajK_LZyn0Jv6MYhIL3YHxZ6p79ahaWy1i0SJGE8G6WfpplimepTI2Kn05g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.495834,29.723471,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Community Family Center Southwest Location</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/9TJVF1eisuCWh3Tr11dDXywae8oEc5arKvGUQ5LtWCcmufJrA-7qogLbCjT39HaXN0JlPCUVajdiGI7zynjZajK_LZyn0Jv6MYhIL3YHxZ6p79ahaWy1i0SJGE8G6WfpplimepTI2Kn05g" height="200" width="auto" /><br><br>Houston, TX 77057]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/9TJVF1eisuCWh3Tr11dDXywae8oEc5arKvGUQ5LtWCcmufJrA-7qogLbCjT39HaXN0JlPCUVajdiGI7zynjZajK_LZyn0Jv6MYhIL3YHxZ6p79ahaWy1i0SJGE8G6WfpplimepTI2Kn05g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.495834,29.723471,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Covenant House</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.393097,29.743254,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eastside Univerity Village Community</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.352287,29.725248000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Go Foward Family Literacy</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/PhmPioN6U7yp82sGz-pdFksZY1IKbC9KgrL3KYsHUf7g464REekvpJsiY07ZylENxspY0KagZ3fwdDOqr0UqIC4Tq1KisO2LtxbzUWYpHaYaMSkmN7Y0oXdAywu4-KaB_r1YGARvrjLDsA" height="200" width="auto" /><br><br>Houston, TX 77008]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/PhmPioN6U7yp82sGz-pdFksZY1IKbC9KgrL3KYsHUf7g464REekvpJsiY07ZylENxspY0KagZ3fwdDOqr0UqIC4Tq1KisO2LtxbzUWYpHaYaMSkmN7Y0oXdAywu4-KaB_r1YGARvrjLDsA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.414619,29.802402000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gulf Coast Community Services Association</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.412682,29.670671,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gulf Coast Community Services Association</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.412682,29.670671,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harris County Department of Education: Adult Education</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.36187,29.817656000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aldine Branch Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.407829,29.920773,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Atascocita Branch Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.154953,30.004162000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barbara Bush Branch Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.509995,30.01244,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Katherine Tyra Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.657104,29.833302,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Katherine Tyra Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.657104,29.833302,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Katy Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.817665,29.802132,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kingwood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.181114,30.042919000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Porte Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.019325,29.658688,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maud Smith Marks Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.734093,29.757553,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>North Channel Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.156967,29.811157000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>North Channel Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.156967,29.811157000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Northwest Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.59211,29.961912,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LSC-Tomball</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.644028,30.110517999999995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Octavia Fields Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.260063,29.980558,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parker Williams Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.214554,29.584088999999995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Community College</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/0NoDbI-zQejOASnuX2nyoHu2paA-qEiEJcajslbZe4-odJSFPReoW2spypDLmsuKkYxN6QZ2kXZ-vCZfAiTMWNUDKtreRQ6R9L-DhrTCeSRC8i5JO6O9fXYeHCjBmT1fAf6G72ek1QilgA" height="200" width="auto" /><br><br>Houston Community College Performing Arts Center, Houston, TX 77004]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/0NoDbI-zQejOASnuX2nyoHu2paA-qEiEJcajslbZe4-odJSFPReoW2spypDLmsuKkYxN6QZ2kXZ-vCZfAiTMWNUDKtreRQ6R9L-DhrTCeSRC8i5JO6O9fXYeHCjBmT1fAf6G72ek1QilgA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.377602,29.735613,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Community College</name>
+			<description><![CDATA[Houston Community College - Northeast Campus, Houston, TX 77013]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.256874,29.781288000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HCC</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ZmPzsB2U1Z1ZHtRk-jG1uWlEVwKfNQYsuuUyui7ZJZUYti4F_ulAN08VjvJP7s16liH3xA6_2nAfxjL4vBT55sewbY5tQY-rcTX-4Q3IQg2ygbk-OOGgtEiFAvJM4Hwk7LhvaBlesqW0vw" height="200" width="auto" /><br><br>Houston, TX 77003]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/ZmPzsB2U1Z1ZHtRk-jG1uWlEVwKfNQYsuuUyui7ZJZUYti4F_ulAN08VjvJP7s16liH3xA6_2nAfxjL4vBT55sewbY5tQY-rcTX-4Q3IQg2ygbk-OOGgtEiFAvJM4Hwk7LhvaBlesqW0vw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.33601400000002,29.747108000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hope After the Journey</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/wQnmQ42CoESknL9irZddQbLzItr4DMnsvhudMoPInx9Wq2WzHPPbs1PMFpZEjfsKNhkzJkoIW_2KGfxH-3-QaRR-0wxQbC6DvY1sgW3wRPkWutNu_HdZj7JQrzaluXTt5wE3B5A4FG3foQ" height="200" width="auto" /><br><br>Houston, TX 77083]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/wQnmQ42CoESknL9irZddQbLzItr4DMnsvhudMoPInx9Wq2WzHPPbs1PMFpZEjfsKNhkzJkoIW_2KGfxH-3-QaRR-0wxQbC6DvY1sgW3wRPkWutNu_HdZj7JQrzaluXTt5wE3B5A4FG3foQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.643967,29.703857,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>House of Amos Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.57481400000002,29.690798000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Area Urban League</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.333717,29.696867,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston International University</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.37445100000001,29.773788000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carnegie Regional Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.358574,29.782019,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Public Library - Central Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.36985,29.759602000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collier Regional Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.482735,29.840818,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>City of Houston: Flores Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.334984,29.750616,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Freed-Montrose Neighborhood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.391518,29.735632,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Freed-Montrose Neighborhood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.391518,29.735632,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Heights Neighborhood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.397537,29.795008,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>City of Houston: Jungman Neighborhood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.4813,29.738483000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mancuso Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.310196,29.667965,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Robinson-Westchase Neighborhood Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.751343,29.587789,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stanaker Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.302971,29.73999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuttle Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.307549,29.776381999999998,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vinson Library</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.434036,29.613607,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Center for Literacy</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.416893,29.733125999999995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Center for Literacy</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/1mz5yCTjYgeDNl6aul-VFykAi6KJbj3f6lg6sul4ueRqfYQPzdcjlpObjI3sCOoFG951gqDOEuWpbxi6BFER4qv-1fxeLFimM8L5ONNQ7nxw5-NROasV7PbdQk-QDjYwdHOcRVpjPM47FQ" height="200" width="auto" /><br><br>Houston, TX 77002]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/1mz5yCTjYgeDNl6aul-VFykAi6KJbj3f6lg6sul4ueRqfYQPzdcjlpObjI3sCOoFG951gqDOEuWpbxi6BFER4qv-1fxeLFimM8L5ONNQ7nxw5-NROasV7PbdQk-QDjYwdHOcRVpjPM47FQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.373077,29.744219000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Center for Literacy</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.520905,29.708479,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Insight Community Resource</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Ipe5KOLNJYUf6ap92sCpTxR6T5qBuJOHQn0qqBNDHlR935PHt7XRFYEwDDT2FN7QnAyn-EW5e3J7DZ--ePx198lE1L8OHqrFyvGJKwSJ6EWmsCJCr06pqbPvyK6Hu-lnF0sx0LGh1eQVjA" height="200" width="auto" /><br><br>Houston, TX 77074]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/Ipe5KOLNJYUf6ap92sCpTxR6T5qBuJOHQn0qqBNDHlR935PHt7XRFYEwDDT2FN7QnAyn-EW5e3J7DZ--ePx198lE1L8OHqrFyvGJKwSJ6EWmsCJCr06pqbPvyK6Hu-lnF0sx0LGh1eQVjA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.544998,29.673758,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Evelyn Rubenstein Jewish Community Center</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.483841,29.674109,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Julia C Hester House Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.320366,29.779347999999995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Knowledge First Empowerment</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/rEqazOebmaOnLT9a7b3YXPNz1tC5qFKRNXNHnrNmYte-WI6H7HiRT9xK1uC0IYuxCyRVpJTggp4C2HG8UzR25mHQ78GGmN2UX8yyZJJ-iCCnQEo3EbBoPeSvwPQDKNJR6JlKefb9pVCbAA" height="200" width="auto" /><br><br>Missouri City, TX 77459]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/rEqazOebmaOnLT9a7b3YXPNz1tC5qFKRNXNHnrNmYte-WI6H7HiRT9xK1uC0IYuxCyRVpJTggp4C2HG8UzR25mHQ78GGmN2UX8yyZJJ-iCCnQEo3EbBoPeSvwPQDKNJR6JlKefb9pVCbAA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.545242,29.582928,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La RAZA</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/KjdoW2DrDrpXW-yMSsgmHo3pdLwCiTee5z0dqWAxkQ-FDhk1gjmBuUTOuuNTNNQImL9eED4ai04J9aLERWw2-HNQ0axCrNhUTaOdh8ToFTe-7Ygi5hc4zvoFHUq4GUgu9QT-Rxz29wm8-g" height="200" width="auto" /><br><br>Houston, TX 77044]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/KjdoW2DrDrpXW-yMSsgmHo3pdLwCiTee5z0dqWAxkQ-FDhk1gjmBuUTOuuNTNNQImL9eED4ai04J9aLERWw2-HNQ0axCrNhUTaOdh8ToFTe-7Ygi5hc4zvoFHUq4GUgu9QT-Rxz29wm8-g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.221817,29.895319,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee College (Baytown)</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/voO2jYpi5174PimdYxyKKbWczUitj2pyLEdbdF3PTys7uHGgMaxkwtqJ6kuHTMOsKFWsCI_YI8LVAyWOBltS6LgmzSJE8RTQ7JhlSTbB1kYGaf1RWy0TV4VWnCnlqwEPT3eQbxb3z0NueA" height="200" width="auto" /><br><br>Lee College, Baytown, TX 77520]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/voO2jYpi5174PimdYxyKKbWczUitj2pyLEdbdF3PTys7uHGgMaxkwtqJ6kuHTMOsKFWsCI_YI8LVAyWOBltS6LgmzSJE8RTQ7JhlSTbB1kYGaf1RWy0TV4VWnCnlqwEPT3eQbxb3z0NueA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.974388,29.733259,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Literacy Advance of Houston</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.572624,29.739098,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lone Star College-Montgomery</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.463989,30.207426000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Meadowbrook Learning Center</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.261581,29.680210000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>My Brothers Keeper Outreach</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.603493,29.678121999999995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Baker Ripley Charter School</name>
+			<description><![CDATA[6500 Rookin St, Houston, TX 77074]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.49769600000002,29.710644,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Neighborhood Centers Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.20153800000001,29.651207000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Neighborhood Centers Inc Head Start</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.452141,29.716211,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Neuhaus Education Center</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.450401,29.716698,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Northwest Assistance Ministries</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.465279,30.008854000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Open Door Mission</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.317169,29.740456,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Open Door Mission</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.317169,29.740456,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P.U.S.H. to W.I.N.</name>
+			<description><![CDATA[Houston, TX 77051]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.366302,29.652292,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Project One Focus</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/tpPxdQ1EdVNC63o8rnlTsoWbXBFCqdgvsIVmE7qo__VvDlo1kza5f04sqoWRStYP03C_brKiiNc9iiMrRNBkZKnTh65qV3BBQCLBpNJHCB3zJT26QCmYXNI-frHa1R5dxBSu1SwXGvxYnQ" height="200" width="auto" /><br><br>Houston, TX 77091]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/tpPxdQ1EdVNC63o8rnlTsoWbXBFCqdgvsIVmE7qo__VvDlo1kza5f04sqoWRStYP03C_brKiiNc9iiMrRNBkZKnTh65qV3BBQCLBpNJHCB3zJT26QCmYXNI-frHa1R5dxBSu1SwXGvxYnQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.428894,29.853767000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rehoboth Foundation Inc</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.516258,29.682848,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEARCH Homeless Services</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.37281,29.745171000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Society of St. Vincent de Paul</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.382462,29.704437,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Somali Community Development Association of Greater Houston</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/nRNFZaOibNJXjdiP73RQ5oQHxauONRdrcIC1u_Yht5C2yfrRMP4AF_fnKM6qGsd3Z-7Dikqf7cBoH7QGTzrQQGUchSWeomtrTYXg6QLHStQKh9NV4sSLb8AT5SXmMI-zhv7eAzRzeRTsSg" height="200" width="auto" /><br><br>Houston, TX 77081]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/nRNFZaOibNJXjdiP73RQ5oQHxauONRdrcIC1u_Yht5C2yfrRMP4AF_fnKM6qGsd3Z-7Dikqf7cBoH7QGTzrQQGUchSWeomtrTYXg6QLHStQKh9NV4sSLb8AT5SXmMI-zhv7eAzRzeRTsSg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.493019,29.709082,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Star of Hope Mission - Main Office</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.3769,29.699335,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Star of Hope Mission - Main Office</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.3769,29.699335,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Technology For All</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.279182,29.707720000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tejano Center-Community</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.279137,29.697557,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>West Houston Assistance Ministries</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-95.560616,29.7311,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wright Place Leadership Center</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/aiqhyLAX1qXONflBkq0YSAgfCIah6vmY-1GPWHoeQHzpCjCFVrUfQtIzJwb-ELnXcqzUPdxY7NSseU0J__DlH1JM1N0Rrpg_etPI-xkZ9CBBNF3okjbkw5_Mh9CALvzWqByILCgavTR1yA" height="200" width="auto" /><br><br>Houston, TX 77091]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/aiqhyLAX1qXONflBkq0YSAgfCIah6vmY-1GPWHoeQHzpCjCFVrUfQtIzJwb-ELnXcqzUPdxY7NSseU0J__DlH1JM1N0Rrpg_etPI-xkZ9CBBNF3okjbkw5_Mh9CALvzWqByILCgavTR1yA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.472839,29.855005000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston Center for Literacy Demonstration Learning Center at Magnolia</name>
+			<description><![CDATA[7037 Capitol StHouston, TX 77011]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-95.30107,29.734548,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-22-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-22-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-22'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-22-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-22-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-22-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
