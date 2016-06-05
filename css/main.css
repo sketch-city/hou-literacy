@@ -19,12 +19,19 @@ canvas{
   overflow-x: hidden;
 }
 #houstonmap{
-  width: 75%;
+  width: 65%;
   height: 100%;
   color: black;
 }
+#map-container{
+  width: 100%;
+  height: 89%;
+  color: black;
+  margin: auto;
+  margin-bottom: 20px;
+}
 #infobox{
-  width: 23%;
+  width: 32%;
   position: absolute;
   right: 0;
   top: 8%;
@@ -47,7 +54,7 @@ canvas{
 }
 .prop_button{
   margin-bottom: 5px;
-  width: 40%;
+  width: 130px;
   height: 40px;
 }
 .prop_button.active {
@@ -75,13 +82,6 @@ canvas{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #263666;
 }
-#map-container{
-  width: 100%;
-  height: 85%;
-  color: black;
-  margin: auto;
-  margin-bottom: 20px;
-}
 .leaflet-popup-content{
   text-align: center;
 }
@@ -92,6 +92,7 @@ canvas{
 }
 #interface{
   height: 400px;
+  display: none;
 }
 /*path {
   fill: #000;

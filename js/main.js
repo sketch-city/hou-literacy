@@ -10,16 +10,20 @@ $(function(){
     attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> with <a href="https://github.com/SINTEF-9012/PruneCluster" target="_blank">PruneCluser</a>. More info about this <a href="http://data.houstontx.gov/dataset/city-of-houston-parking-citations">data</a> can be found in my <a href="https://github.com/jpoles1/HOUTix/blob/master/README.md">report (source, methodology)</a>'
   }).addTo(houstonmap);
   $.getJSON("literacy_data.json", function(lit_data){
+    function prepareInfoarea(block_id){
+      $("#infoarea").html("")
+      for(prop in lit_data){
+        var active = (prop == current_prop ? "active": "");
+        $("#infoarea").append("<button class='prop_button "+active+"' type='button' value="+prop+">"+prop+(block_id ? ": "+lit_data[prop][block_id] : "")+"</button>")
+      }
+    }
+    prepareInfoarea();
     //Setup geo-data
     function highlightFeature(e) {
       var layer = e.target;
       var layer_props = layer.feature.properties;
       var block_id = getFeatureID(layer_props)
-      $("#infoarea").html("")
-      for(prop in lit_data){
-        var active = (prop == current_prop ? "active": "");
-        $("#infoarea").append("<button class='prop_button "+active+"' type='button' value="+prop+">"+prop+": "+lit_data[prop][block_id]+"</button>")
-      }
+      prepareInfoarea(block_id);
       $(".prop_button").click(function(){
         current_prop = $(this).val();
         console.log(current_prop);
