@@ -1,14 +1,10 @@
 <html>
   <head>
+    <title>Houston Literacy Research Map</title>
+
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/tabs.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="js/leaflet.js"></script>
-    <script src="js/chroma.min.js"></script>
-    <script src="js/main.js"></script>
   </head>
   <body>
     <div id="container">
@@ -46,5 +42,11 @@
         </div>
       </div>
     </div>
+
+    <!-- Deliver vue.js, jQuery, d3.js, leaflet from CDN https://www.jsdelivr.com/ -->
+    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,d3js@3.5.17,leaflet@1.0.0-rc.1,jquery@3.0.0"></script>
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <script src="js/chroma.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
