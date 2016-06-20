@@ -47,7 +47,7 @@ var litmap = new Vue({
             fillOpacity: .7,
             fillColor: "white",
             weight: 1,
-            pointerEvents: "visiblePainted"
+            pointerEvents: "all"
         }
     },
 
@@ -79,6 +79,8 @@ var litmap = new Vue({
     block_id: 'blockData' // Fire blockData when block_id changes
   },
 
+
+
   // Methods used in the application
   methods: {
 
@@ -90,16 +92,12 @@ var litmap = new Vue({
       this.$http( { url: self.datasources.literacy_data , method: 'GET' } )
         .then( function( response ) {
           // success callback
-          console.log( "SUCCESS!", response );
-
           if( typeof success_callback == "function" ){
               success_callback( response );
           }
 
         }, function(response) {
             // error callback
-            console.log( "FAIL!", response );
-
             if( typeof error_callback == "function" ){
                 error_callback( response );
             }
@@ -192,8 +190,6 @@ var litmap = new Vue({
 
     // Highlight Feature
     highlightFeature: function( e ){
-      console.log( "Mouseover!" );
-
       var layer = e.target; // Select the layer that was clicked
       var layer_props = layer.feature.properties; // Grab Leaflet properties
 
@@ -237,7 +233,7 @@ var litmap = new Vue({
 
     // Gather all of the data for a single block
     blockData: function(){
-      var data = [];
+      var block_data = [];
 
       // Make sure we have a block_id
       if( this.block_id ){
@@ -246,23 +242,19 @@ var litmap = new Vue({
         for( property in this.term_map ){
 
           // If we have data for this property and this block
-          if( this.literacy_data[ property ].indexOf( this.block_id ) > -1 ) {
+          if( this.literacy_data.hasOwnProperty( property ) > -1  && this.literacy_data[ property ].hasOwnProperty( this.block_id ) > -1 ) {
 
               // Add it to the array
-              data.push( this.literacy_data[ property ][ this.block_id ] );
+              block_data.push({
+                      name: property,
+                      label: this.term_map[ property ],
+                      value: this.literacy_data[ property ][ this.block_id ]
+                    });
           }
         }
 
-        // If we have data
-        if( data.length ){
-          // Set the model data in Vue
-          this.current_block = data;
-          return;
-        }
+        this.current_block = block_data;
       }
-
-      // No data
-      this.current_block = null;
 
     } // END block_data
 

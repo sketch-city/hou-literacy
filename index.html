@@ -28,9 +28,11 @@
               <label :for="$key">{{ property }}</label>
             </template>
 
-            <div class="current-block">
-              <h3>Census Block-Group Info:</h3>
-              
+            <div class="current-block" v-if="current_block">
+              <h3>Block Info:</h3>
+              <div v-for="property in current_block">
+                {{ property.label }}: {{ property.value }}
+              </div>
             </div>
           </form>
         </div>
@@ -38,7 +40,7 @@
     </div>
 
     <!-- Deliver vue.js, jQuery, d3.js, leaflet from CDN https://www.jsdelivr.com/ -->
-    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,vue.resource@0.8.0,d3js@3.5.17,leaflet@1.0.0-rc.1,jquery@3.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,vue.resource@0.8.0,d3js@3.5.17,leaflet@0.7.7,jquery@3.0.0"></script>
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <script src="js/chroma.min.js"></script>
     <script src="js/main.js"></script>
