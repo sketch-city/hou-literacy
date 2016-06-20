@@ -7,44 +7,38 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div id="container">
+    <header>
       <h2>Houston Literacy Research Map</h2>
-      <div id="map-container">
-        <div id="houstonmap"></div>
-        <div id="infobox">
-          <h2>Census Block-Group Info:</h2>
-          <div id="infoarea">
-          </div>
-          <br>
-          <br>
-        </div>
-      </div>
-      <div id="interface">
-        <div style="position: relative;">
-          <div id="tabs-container">
-            <ul class="tabs-menu">
-              <li class="current"><a href="#tab-1">Map Variable</a></li>
-              <li><a href="#tab-2">2</a></li>
-              <li><a href="#tab-3">3</a></li>
-            </ul>
-            <div class="tab">
-              <div id="tab-1" class="tab-content">
-                <select class="variable-selector" id="first_map">
+    </header>
 
-                </select>
-              </div>
-              <div id="tab-2" class="tab-content">
-              </div>
-              <div id="tab-3" class="tab-content">
-              </div>
+    <div id="container" class="litmap">
+      <div id="map-container">
+
+        <div id="houstonmap"></div>
+
+        <div id="infobox">
+          <form action="#" id="infoarea">
+            <template v-for="property in term_map">
+              <input type="radio"
+                name="prop"
+                :id="$key"
+                :value="$key"
+                v-model="current_prop">
+
+              <label :for="$key">{{ property }}</label>
+            </template>
+
+            <div class="current-block">
+              <h3>Census Block-Group Info:</h3>
+              
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
 
     <!-- Deliver vue.js, jQuery, d3.js, leaflet from CDN https://www.jsdelivr.com/ -->
-    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,d3js@3.5.17,leaflet@1.0.0-rc.1,jquery@3.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,vue.resource@0.8.0,d3js@3.5.17,leaflet@1.0.0-rc.1,jquery@3.0.0"></script>
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <script src="js/chroma.min.js"></script>
     <script src="js/main.js"></script>
