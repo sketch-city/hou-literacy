@@ -33,7 +33,7 @@ canvas{
   width: 65vw;
   height: 100%;
   color: black;
-  background: #30DEEE;
+  background: #FFF;
 }
 
 #map-container{
@@ -58,12 +58,13 @@ canvas{
 }
 
 #infoarea{
-  display: flex;
   width: 100%;
   height: 50vh;
   min-height: 300px;
-  justify-content: space-around;
-  flex-wrap: wrap;
+}
+
+.map_prop_select{
+  padding: 1em 0;
 }
 
 input[type=radio] + label{

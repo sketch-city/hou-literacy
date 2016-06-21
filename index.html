@@ -18,15 +18,12 @@
 
         <div id="infobox">
           <form action="#" id="infoarea">
-            <template v-for="property in term_map">
-              <input type="radio"
-                name="prop"
-                :id="$key"
-                :value="$key"
-                v-model="current_prop">
-
-              <label :for="$key">{{ property }}</label>
-            </template>
+            <div class="map_prop_select">
+              <label for="map_prop">Map Highlight</label>
+              <select id="map_prop" name="map_prop" v-model="current_prop">
+                <option v-for="property in term_map" :value="$key">{{ property }}</option>
+              </select>
+            </div>
 
             <div class="current-block" v-if="current_block">
               <h3>Block Info:</h3>
