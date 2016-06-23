@@ -1,57 +1,87 @@
-h2{
-  padding-left: 10px;
-  margin-top: 15px;
-}
 body{
-  background-color: #333;
   padding: 0px;
   margin: 0;
   font-family: arial;
   color: #ddd;
 }
+
+header{
+  padding: 0 10px;
+  background: #444;
+  color: #888;
+  height: 5vh;
+}
+
+header h2{
+  line-height: 5vh;
+  font-size: 2vh;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 canvas{
   background-color: purple;
 }
 #container{
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 95vh;
   overflow-x: hidden;
 }
+
 #houstonmap{
-  width: 65%;
+  width: 65vw;
   height: 100%;
   color: black;
+  background: #FFF;
 }
+
 #map-container{
   width: 100%;
-  height: 89%;
+  height: 100%;
   color: black;
   margin: auto;
-  margin-bottom: 20px;
 }
+
 #infobox{
-  width: 32%;
+  background: #CCC;
+  width: 35vw;
   position: absolute;
   right: 0;
-  top: 8%;
-  height: 92%;
-  color: #eee;
+  top: 0;
+  bottom: 0;
+  color: #444;
   text-align: center;
-  margin: 0 1% 0 1%;
-  border: 3px solid #555;
-  height: 90.5%;
-  border-bottom: none;
+  border-left: 1px solid #555;
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
 #infoarea{
-  display: flex;
   width: 100%;
-  height: 100%;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  height: 50vh;
+  min-height: 300px;
 }
+
+.map_prop_select{
+  padding: 1em 0;
+}
+
+input[type=radio] + label{
+  width: 40%;
+  display: inline-block;
+  color: #999;
+}
+input[type=radio]{
+  display: none;
+}
+/* Highlighted state */
+input[type="radio"]:checked+label{
+  color: #333;
+  font-weight: bold;
+}
+
+
 .prop_button{
   margin-bottom: 5px;
   width: 130px;
@@ -90,17 +120,3 @@ canvas{
   color: #fff !important;
   opacity: .9;
 }
-#interface{
-  height: 400px;
-  display: none;
-}
-/*path {
-  fill: #000;
-  fill-opacity: .2;
-  stroke: #003399;
-  stroke-width: 1.5px;
-}
-path:hover {
-  fill: brown;
-  fill-opacity: .7;
-}*/

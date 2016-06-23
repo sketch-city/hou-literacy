@@ -1,50 +1,45 @@
 <html>
   <head>
+    <title>Houston Literacy Research Map</title>
+
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/tabs.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="js/leaflet.js"></script>
-    <script src="js/chroma.min.js"></script>
-    <script src="js/main.js"></script>
   </head>
   <body>
-    <div id="container">
+    <header>
       <h2>Houston Literacy Research Map</h2>
-      <div id="map-container">
-        <div id="houstonmap"></div>
-        <div id="infobox">
-          <h2>Census Block-Group Info:</h2>
-          <div id="infoarea">
-          </div>
-          <br>
-          <br>
-        </div>
-      </div>
-      <div id="interface">
-        <div style="position: relative;">
-          <div id="tabs-container">
-            <ul class="tabs-menu">
-              <li class="current"><a href="#tab-1">Map Variable</a></li>
-              <li><a href="#tab-2">2</a></li>
-              <li><a href="#tab-3">3</a></li>
-            </ul>
-            <div class="tab">
-              <div id="tab-1" class="tab-content">
-                <select class="variable-selector" id="first_map">
+    </header>
 
-                </select>
-              </div>
-              <div id="tab-2" class="tab-content">
-              </div>
-              <div id="tab-3" class="tab-content">
+    <div id="container" class="litmap">
+      <div id="map-container">
+
+        <div id="houstonmap"></div>
+
+        <div id="infobox">
+          <form action="#" id="infoarea">
+            <div class="map_prop_select">
+              <label for="map_prop">Map Highlight</label>
+              <select id="map_prop" name="map_prop" v-model="current_prop">
+                <option v-for="property in term_map" :value="$key">{{ property }}</option>
+              </select>
+            </div>
+
+            <div class="current-block" v-if="current_block">
+              <h3>Block Info:</h3>
+              <div v-for="property in current_block">
+                {{ property.label }}: {{ property.value }}
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
+
+    <!-- Deliver vue.js, jQuery, d3.js, leaflet from CDN https://www.jsdelivr.com/ -->
+    <script src="https://cdn.jsdelivr.net/g/vue@1.0.25,vue.resource@0.8.0,d3js@3.5.17,leaflet@0.7.7,jquery@3.0.0"></script>
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <script src="js/chroma.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
