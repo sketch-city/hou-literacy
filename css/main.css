@@ -120,3 +120,7 @@ input[type="radio"]:checked+label{
   color: #fff !important;
   opacity: .9;
 }
+.block_prop{
+  margin-bottom: 5px;
+  font-size: 16pt;
+}

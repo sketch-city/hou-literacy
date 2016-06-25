@@ -27,7 +27,7 @@
 
             <div class="current-block" v-if="current_block">
               <h3>Block Info:</h3>
-              <div v-for="property in current_block">
+              <div v-for="property in current_block" class="block_prop">
                 {{ property.label }}: {{ property.value }}
               </div>
             </div>
