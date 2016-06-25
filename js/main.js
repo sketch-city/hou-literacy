@@ -243,13 +243,18 @@ var litmap = new Vue({
 
           // If we have data for this property and this block
           if( this.literacy_data.hasOwnProperty( property ) > -1  && this.literacy_data[ property ].hasOwnProperty( this.block_id ) > -1 ) {
-
-              // Add it to the array
-              block_data.push({
-                      name: property,
-                      label: this.term_map[ property ],
-                      value: this.literacy_data[ property ][ this.block_id ]
-                    });
+            //If the value is defined, convert it to a fixed decimal with 2 values beyond the decimal
+            var round_val = this.literacy_data[ property ][ this.block_id ] != null ? (this.literacy_data[ property ][ this.block_id ]+1e-10).toFixed(2) : "Unkown";
+            //If the value is an integer, remove it's decimals
+            round_val = ((round_val % 1) == 0) ? parseInt(round_val) : round_val
+            //and add commas
+            round_val = round_val.toLocaleString()
+            // Add it to the array
+            block_data.push({
+              name: property,
+              label: this.term_map[ property ],
+              value: round_val
+            });
           }
         }
 
