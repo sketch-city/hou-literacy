@@ -1,10 +1,12 @@
 
 // Map of terms to use in the UI and their labels
 var litmap_term_map = {
+  SUM_TotPop: "Population Size",
   No_HS : "No High School",
   Percent_No_HS : "% No High School",
   Percent_Only_Spanish : "% Only Spanish",
   Percent_Other_Languages : "% Other Languages",
+  Vac_Rate: "Vacancy Rate (%)",
   HS_Graduate : "High School Graduate",
   Some_College : "Some College",
   BS_and_Higher : "BS and Higher",

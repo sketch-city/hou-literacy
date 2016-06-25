@@ -18,6 +18,7 @@ clean_data = merge_frames(householdIncome, homeValue)
 clean_data = merge_frames(clean_data, langData)
 clean_data = merge_frames(clean_data, edData)
 rownames(clean_data) = paste(clean_data$TRACT,"-",clean_data$BLKGRP, sep="")
+clean_data$Vac_Rate = 100*clean_data$SUM_Vacant/clean_data$SUM_TotHou
 write.csv(clean_data, "clean_data.csv")
 #Prepare a JSON file with block data
 system("python3 clean_lit_data.py")
