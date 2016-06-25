@@ -114,7 +114,7 @@ var litmap = new Vue({
 
       // Grab tile layer
       L.tileLayer( this.datasources.tile_layer, {
-        attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> with <a href="https://github.com/SINTEF-9012/PruneCluster" target="_blank">PruneCluser</a>. More info about this <a href="http://data.houstontx.gov/dataset/city-of-houston-parking-citations">data</a> can be found in my <a href="https://github.com/jpoles1/HOUTix/blob/master/README.md">report (source, methodology)</a>'
+        attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a>. More info about this data can be found in the <a href="https://github.com/sketch-city/hou-literacy">repository</a>'
       }).addTo( this.map_view ); // Add to map
 
       // Set boundaries for layers w/ geoJSON notation
